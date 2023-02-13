@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Maximum likelihood	294.180623273859	241	0.0108980194247973
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	293.93489048441	240	0.00995033682974006
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted	294.344715948102	241	0.0107113154445246
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Unweighted regression	0.153529917240173	241	1
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Maximum likelihood	284.487492140375	241	0.0285363272270386
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	284.161859047221	240	0.026566257153212
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted	284.639527544407	241	0.0281338735464496
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Unweighted regression	0.0929949943694642	241	1
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Maximum likelihood	326.06809545833	241	0.000212488121547257
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	MR Egger	325.463523738546	240	0.000196426372098186
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Inverse variance weighted	326.186648947826	241	0.000208967894167975
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Unweighted regression	0.0748583511986661	241	1
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Maximum likelihood	302.224820935517	241	0.00449882089979348
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	302.078187378072	240	0.00402092824926019
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted	302.239062767132	241	0.00449147675095848
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Unweighted regression	0.193446455915667	241	1
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Maximum likelihood	246.976913707809	241	0.381961942538983
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	246.965079385215	240	0.364953659236351
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted	247.011481545288	241	0.381371517107387
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Unweighted regression	0.155858422379557	241	1
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Maximum likelihood	245.755042929595	198	0.0118171211628914
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	241.899742450964	197	0.016059702949256
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted	245.830985020573	198	0.0117155699709424
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Unweighted regression	0.219386259226483	198	1
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Maximum likelihood	251.583822877364	198	0.00595249771981518
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	249.208181706464	197	0.00692422768561561
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted	251.70558366751	198	0.00586491406801328
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Unweighted regression	0.122265578145124	198	1
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Maximum likelihood	258.659779832268	198	0.00243353148841938
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	MR Egger	255.519344151016	197	0.00315599329208297
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Inverse variance weighted	258.780329678066	198	0.00239535154357477
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Unweighted regression	0.0994282380916363	198	1
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Maximum likelihood	234.843648073764	198	0.0374813172963977
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	234.717394346882	197	0.0340788092983814
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted	234.865975906827	198	0.0373995119828254
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Unweighted regression	0.18152492087504	198	1
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Maximum likelihood	230.630354560739	198	0.0558599955797236
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	230.662986893361	197	0.0503910072791054
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted	230.666370304942	198	0.0556760727155824
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Unweighted regression	0.193392807379117	198	1

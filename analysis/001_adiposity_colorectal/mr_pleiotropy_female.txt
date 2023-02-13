@@ -1,0 +1,11 @@
+id.exposure	id.outcome	outcome	exposure	egger_intercept	se	pval
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	-0.00232130115953321	0.00401284114929036	0.563490461142148
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	-0.00199610582533991	0.00314266098454815	0.525926405323008
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	-0.00207796195429763	0.00284561656926963	0.465960211829351
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	-0.0016281962092906	0.00455424087312835	0.721022660054183
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	-0.000850207123663616	0.00400375776601521	0.832012446458802
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	-0.00751465044169806	0.00419979848249938	0.0751046165257239
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	-0.00478768365135894	0.003407448160649	0.161577091004309
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	-0.00463046119023794	0.00292030755403977	0.114432268903951
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	-0.00164853202541438	0.00466825376547659	0.724363493886274
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	0.000241754608736532	0.00449731377413337	0.957184568735863

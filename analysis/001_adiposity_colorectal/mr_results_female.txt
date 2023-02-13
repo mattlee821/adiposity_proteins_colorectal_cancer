@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	242	0.325890014486285	0.192490753710534	0.0917499023249696
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted median	242	0.128859781652059	0.105379990075963	0.221401195161433
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted (multiplicative random effects)	242	0.222515210653219	0.0714374474941568	0.00184053518434804
+BMI_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted mode	242	0.139086575171281	0.168508495078169	0.409961948387326
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	242	0.263237719225627	0.150711380343513	0.0819800383959747
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted median	242	0.142808242581082	0.0890033187579367	0.108597901908523
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted (multiplicative random effects)	242	0.174372139235744	0.0559593596599726	0.00183291451755904
+BMI_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted mode	242	0.0932480501915891	0.13428692395738	0.488103926624684
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	MR Egger	242	0.216058540394544	0.136631700676276	0.115121664290911
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Weighted median	242	0.0865521054603885	0.0764621748351258	0.257651350346467
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Inverse variance weighted (multiplicative random effects)	242	0.123365619269516	0.0505023118940134	0.0145749532499144
+BMI_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	BMI_female	Weighted mode	242	0.0807687584967454	0.129069451746147	0.532053062516649
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	242	0.143087511121817	0.218341831076825	0.512878370249181
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted median	242	0.0407878838540358	0.124037157531047	0.742279644010915
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted (multiplicative random effects)	242	0.0706371037472393	0.0811268696281527	0.38391839345051
+BMI_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted mode	242	0.132182919470226	0.21023696655719	0.530119312191305
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	MR Egger	242	0.161020852530332	0.191988184516352	0.402471176912826
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted median	242	0.113043046842148	0.117483763224348	0.335948422983552
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Inverse variance weighted (multiplicative random effects)	242	0.123174149031173	0.0712373548484978	0.0837971306182261
+BMI_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	BMI_female	Weighted mode	242	0.237911044215301	0.20439055458756	0.245574187570276
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	199	0.43779898011844	0.169182673425948	0.010380503523044
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted median	199	0.188604371813546	0.102845458732929	0.0666744914269708
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted (multiplicative random effects)	199	0.161334376518476	0.0692961420778234	0.0199021766510358
+WHR_female	bjdcuO	joint_proximal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted mode	199	0.185581438728748	0.16234843774111	0.254374927727654
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	199	0.335826944600653	0.137264282275674	0.015299305146929
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted median	199	0.185762068865615	0.0859030557121014	0.0305826053074946
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted (multiplicative random effects)	199	0.159632072762089	0.0559615028186487	0.00433722131382782
+WHR_female	cwxSIy	joint_colon_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted mode	199	0.247211075909867	0.136616176763899	0.0718852324191105
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	MR Egger	199	0.303188340558055	0.117899801010241	0.0108605633682319
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Weighted median	199	0.0836757044058159	0.0709709067542015	0.238392535216743
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Inverse variance weighted (multiplicative random effects)	199	0.132243822402966	0.0479036205601635	0.00576912821425889
+WHR_female	ILb943	Stratified_female_Meta_125K_Results.tsv.annotated.txt	WHR_female	Weighted mode	199	0.0551891135648095	0.111936195817322	0.622530101617701
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	199	0.151749208513941	0.188290186873295	0.421253451570879
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted median	199	-0.00168264391551678	0.11370013616094	0.988192568249182
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted (multiplicative random effects)	199	0.0909515831727198	0.0760715002304312	0.231850138160448
+WHR_female	sAivMc	joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted mode	199	-0.0685216789396614	0.225662684449493	0.761716076222551
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	MR Egger	199	0.117143840786011	0.181518988050456	0.519449303414403
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted median	199	0.117775174568447	0.108625970722463	0.278264309133995
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Inverse variance weighted (multiplicative random effects)	199	0.126068000598985	0.0732203931718149	0.085112863607018
+WHR_female	WSw2Yj	joint_distal_Female_wald_MAC50_1.TBL.annotated.txt	WHR_female	Weighted mode	199	0.0769209372563324	0.188834466284107	0.684194039570772

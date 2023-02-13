@@ -1,0 +1,11 @@
+id.exposure	id.outcome	outcome	exposure	egger_intercept	se	pval
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	-0.00313674774801615	0.0049306915515752	0.525409161318273
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	-0.00226535402135338	0.00470535125919402	0.630742171602675
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	-0.000173836577560857	0.00339645150297363	0.959232494887289
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	0.00204857352237336	0.0044354829718727	0.644696343129761
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	-0.000367723221473324	0.00387868827715869	0.924565221338227
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	0.0122724020704528	0.010099209634656	0.228321327127336
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	0.0054628602633404	0.00876772315507774	0.535238224298788
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	0.00466802573308832	0.00706976985059916	0.511210838134547
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	-0.00433358253590506	0.0101409953564991	0.67042998667778
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	0.00314738535002721	0.00807654476359488	0.697928958451033

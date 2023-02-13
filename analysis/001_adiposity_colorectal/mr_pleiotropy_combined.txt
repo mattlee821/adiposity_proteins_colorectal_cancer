@@ -1,0 +1,13 @@
+id.exposure	id.outcome	outcome	exposure	egger_intercept	se	pval
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	-0.000635534153122512	0.00227640878723159	0.780233674186525
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	-0.000263138785352769	0.00163108057688011	0.871907885994903
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	-0.0011303647966448	0.00183035064441028	0.537174346064135
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	-0.000319801104740237	0.00224938545723602	0.887007830356632
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	-0.00136874001156084	0.00220361699103223	0.534829197073823
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	-0.000525395027447061	0.00165019555650266	0.750342425615808
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	0.000791296390738647	0.00313388756054332	0.80084783552262
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	-0.000882499348812192	0.00229015596935208	0.700283259525112
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	-0.00310036853845895	0.00261743388480666	0.237246442702063
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	-0.000171287677505541	0.00301806865147791	0.954782770452415
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	-0.00615617443208923	0.00319343074381444	0.0549258104062721
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	-0.000939457588822355	0.00230941176420689	0.684478333499595

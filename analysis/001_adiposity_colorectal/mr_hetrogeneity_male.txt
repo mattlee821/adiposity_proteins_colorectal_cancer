@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Maximum likelihood	261.078844092754	197	0.00151177431020705
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	260.68321577919	196	0.00136365530176153
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted	261.221486203213	197	0.00148270973577168
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Unweighted regression	0.196464300978787	197	1
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Maximum likelihood	265.377503213614	196	0.00070596815511132
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	265.102539386778	195	0.000621341835788947
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted	265.417653127109	196	0.00070192001095992
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Unweighted regression	0.193333646958711	196	1
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Maximum likelihood	309.028261473566	198	7.32180345608396e-07
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	MR Egger	309.417760789987	197	5.37807079130661e-07
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Inverse variance weighted	309.421875227808	198	6.79895848867146e-07
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Unweighted regression	0.105439075932448	198	1
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Maximum likelihood	195.962048961985	196	0.487330293370918
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	195.866311977099	195	0.469090452823252
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted	196.080574597707	196	0.48494434016142
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Unweighted regression	0.176411742181491	196	1
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Maximum likelihood	265.233707286381	198	0.000999604770870757
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	265.55087322707	197	0.000812480429642543
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted	265.562989076426	198	0.000954650956069134
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Unweighted regression	0.14252569508334	198	1
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Maximum likelihood	84.2900509033551	72	0.15246163667916
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	82.6277365858423	71	0.1629659776266
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted	84.346245874187	72	0.151470419234193
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Unweighted regression	0.0401309004528815	72	1
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Maximum likelihood	63.9410384207703	72	0.739655713043889
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	63.6684428627679	71	0.719488946822569
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted	64.0566526915176	72	0.73626298084029
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Unweighted regression	0.0267588704990872	72	1
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Maximum likelihood	101.740865967027	72	0.0120591117752325
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	MR Egger	101.323979720628	71	0.0105380012781377
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Inverse variance weighted	101.946150802599	72	0.0116386844831611
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Unweighted regression	0.0186185923193058	72	1
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Maximum likelihood	78.9004378780457	72	0.27000700827425
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	78.7218436584791	71	0.247812149739324
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted	78.9243179486259	72	0.269388710742188
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Unweighted regression	0.04258016976167	72	1
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Maximum likelihood	86.654278196606	72	0.114744434419418
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	86.5554874434119	71	0.101035561882807
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted	86.7406208902012	72	0.113516930139968
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Unweighted regression	0.0253105439905194	72	1

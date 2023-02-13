@@ -1,0 +1,49 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	449	0.199424728960132	0.133245839414305	0.135185500879058
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted median	449	0.130077482763927	0.0750691414665639	0.0831367311257218
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	449	0.165096503572389	0.0512830150511715	0.00128494413647852
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted mode	449	0.100372186658132	0.121082040071687	0.407568390255385
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	450	0.164469495795389	0.0954248782860938	0.0854791510264019
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted median	450	0.12602917201006	0.0458148326332985	0.00594430739173331
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	450	0.150258166028166	0.0366495195368031	4.1338713635909e-05
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted mode	450	0.0448889313501208	0.0907532749093273	0.621106057157787
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	450	0.251428558845208	0.107081091149764	0.0193075300729694
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted median	450	0.194869266221367	0.0550815734495006	0.000403429065865156
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	450	0.190393396869719	0.0411866107822896	3.7877505213477e-06
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted mode	450	0.171871278831926	0.0929437491034573	0.0650864807046378
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	448	0.114279355521599	0.131637922164884	0.385787859247489
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted median	448	0.126984583086514	0.0718004664035755	0.0769646555491078
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	448	0.0970115735901656	0.0507073178731669	0.055726660583934
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted mode	448	0.112861317995246	0.134882656285673	0.403187475140871
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	448	0.277794590813619	0.128961435446274	0.0317681236236802
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted median	448	0.171744435617585	0.075063314047494	0.0221378523348876
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	448	0.203892850660761	0.049716004994926	4.11099923833864e-05
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Weighted mode	448	0.175251196934197	0.124165056818508	0.158811360166477
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	MR Egger	450	0.187958175369247	0.0965461269503473	0.0521806146411023
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Weighted median	450	0.147683683719857	0.0486732180636905	0.00241184252892765
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted (multiplicative random effects)	450	0.159595712563748	0.0371840496137627	1.77032948860506e-05
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Weighted mode	450	0.0800162563078448	0.100792822718202	0.427691284876093
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.138297281495673	0.184452336444005	0.454039759828616
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.216944448994542	0.0931943125785739	0.0199188910825643
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.181832530758316	0.0654187015921442	0.00544394514793467
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.00358504973476315	0.176014161636277	0.983764719625296
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.239896981997107	0.134729145840429	0.0760960062180611
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.161143094904833	0.0600379994389952	0.00727431037168148
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.191379768301878	0.0478794579559741	6.41187671848444e-05
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.112545728529744	0.103631405799173	0.278428371599548
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.371579234308744	0.153910181715658	0.0164276971172869
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.20448273722592	0.0754278340169019	0.0067086314718603
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.201277612874062	0.0549705104464484	0.000250687861139116
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.218085274044709	0.121925920147718	0.0747766312958787
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.23163421174127	0.177453648385736	0.192886185890173
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.17046406677105	0.0890235861822447	0.0555155726220495
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.222226002509566	0.0632056597023197	0.000438234069739963
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.15552035373408	0.155908206448057	0.319399229242942
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.532403335748037	0.18766300989229	0.0048962813677375
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.262861083687439	0.0957085338530948	0.00602394995905916
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.194562647884421	0.0674506602284698	0.0039201326741004
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.314440482460673	0.155376186750379	0.0439712741119191
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	MR Egger	274	0.255112266006272	0.135594146721717	0.0609799809134636
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Weighted median	274	0.186941830338896	0.061307035685918	0.00229396646199707
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted (multiplicative random effects)	274	0.203603813677315	0.0484347661705003	2.62620779085441e-05
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Weighted mode	274	0.113092926243732	0.112870098317193	0.31724332757624

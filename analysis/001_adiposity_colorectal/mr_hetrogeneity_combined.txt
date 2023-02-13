@@ -1,0 +1,49 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	617.313780170507	448	1.78676871674934e-07
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	617.365528296861	447	1.50013249274425e-07
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	617.473177826033	448	1.74658077316765e-07
+BMI_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.171970720152259	448	1
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	800.514770931313	449	3.73776299135477e-22
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	800.909083934603	448	2.55227093077124e-22
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	800.955612975933	449	3.38866040844694e-22
+BMI_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.0864320429993263	449	1
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	694.443648835662	449	7.91897393229733e-13
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	694.287137473144	448	6.51448293272115e-13
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	694.878195010359	449	7.32078127898673e-13
+BMI_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.10801097557625	449	1
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	622.653867808608	447	6.96986922259804e-08
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	622.676219693318	446	5.84520766815442e-08
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	622.704439860009	447	6.91844874788904e-08
+BMI_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.168259630228694	447	1
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	597.576500003988	447	2.29582583558431e-06
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	MR Egger	597.299061314076	446	2.04430170518882e-06
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	597.815747290851	447	2.22434839163005e-06
+BMI_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.16018841537245	447	1
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Maximum likelihood	793.514805645881	449	1.7574637623422e-21
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	MR Egger	793.807933301738	448	1.23365958748672e-21
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Inverse variance weighted	793.987546609321	449	1.58385932388817e-21
+BMI_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	BMI_combined	Unweighted regression	0.08802933893837	449	1
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	363.636091167355	273	0.000196160054558209
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	363.67398465907	272	0.000167023894353413
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	363.759226904161	273	0.000192939057531865
+WHR_combined	3t5TCv	Stratified_distal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.112829278824412	273	1
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	492.600575968202	273	8.37095381705607e-15
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	492.839005427214	272	5.85956143674346e-15
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	493.108056565853	273	7.458375590204e-15
+WHR_combined	9bdK76	MarginalMeta_125K_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.0680467338778875	273	1
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	446.548295459305	273	1.59576680177119e-10
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	444.5973359914	272	1.82919989728856e-10
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	446.89070085036	273	1.49016980717369e-10
+WHR_combined	a4hx87	Stratified_colon_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.0881346861304186	273	1
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	352.437493725232	273	0.000831995646275323
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	352.631906687301	272	0.000705197825996762
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	352.636082554841	273	0.000811812842110993
+WHR_combined	hSsvz7	Stratified_rectal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.109093643984411	273	1
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	401.514868939498	273	6.3600817157147e-07
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	MR Egger	396.280592044242	272	1.24064139814554e-06
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	401.694872258555	273	6.17133768142325e-07
+WHR_combined	mcXK0v	Stratified_proximal_Meta_125K_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.1441708039118	273	1
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Maximum likelihood	487.758662434771	273	2.50036001289927e-14
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	MR Egger	488.018513559252	272	1.75134047371526e-14
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Inverse variance weighted	488.315419579748	273	2.20618749770615e-14
+WHR_combined	xCB1mD	MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt	WHR_combined	Unweighted regression	0.0693168558449622	273	1

@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	198	0.334039528471064	0.211993052615165	0.116705391712533
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted median	198	0.168885625519019	0.107775633598186	0.117112072457812
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted (multiplicative random effects)	198	0.208735777569677	0.0782731919586063	0.00765864574064188
+BMI_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted mode	198	0.158521224401083	0.196103099681121	0.419860446978269
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	197	0.208005825745947	0.202085332540889	0.304615142127182
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted median	197	0.141547113597503	0.104480144170262	0.175489173873387
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted (multiplicative random effects)	197	0.117617347606037	0.0746208990512649	0.114980068897742
+BMI_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted mode	197	0.116488007153652	0.174431572133275	0.505037320890906
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	MR Egger	199	0.223124538086528	0.146193027136179	0.128555866469714
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Weighted median	199	0.139958496196884	0.0735290246838223	0.056982429793177
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Inverse variance weighted (multiplicative random effects)	199	0.216163911399654	0.0535018395688885	5.33810468856837e-05
+BMI_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	BMI_male	Weighted mode	199	0.062732527797507	0.123193558694043	0.611165594216399
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	197	0.157246279364058	0.190431646708359	0.409962916786718
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted median	197	0.185935778101124	0.119200023215301	0.118792116405466
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted (multiplicative random effects)	197	0.238945525423205	0.0703816938425185	0.00068629758688974
+BMI_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted mode	197	0.183435555577034	0.194943908090245	0.347880637400397
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	MR Egger	199	0.272440001116443	0.166867924859507	0.104136062651771
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted median	199	0.227337850520703	0.0845538862731794	0.00717364005021406
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Inverse variance weighted (multiplicative random effects)	199	0.257736559506456	0.0614257613663819	2.71786103833711e-05
+BMI_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	BMI_male	Weighted mode	199	0.092649818893427	0.14017025408569	0.50939310179552
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	73	-0.320117560670558	0.451932162514837	0.481058839626524
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted median	73	0.0303537638935489	0.174089959549242	0.861585082545395
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted (multiplicative random effects)	73	0.208460544502319	0.123031060901036	0.0901943700733363
+WHR_male	0OlRiQ	joint_distal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted mode	73	-0.268286252182469	0.293781400800276	0.364176179925783
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	73	0.0695294943534186	0.391982075458081	0.859715558191664
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted median	73	0.452319326447857	0.150333283177951	0.00262301557985297
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted (multiplicative random effects)	73	0.304476663659579	0.100966447803278	0.00256452558822759
+WHR_male	6a9hiS	joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted mode	73	0.464042251726827	0.349988258505101	0.18907079609685
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	MR Egger	73	0.0259940169251847	0.3157367040067	0.934617433790292
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Weighted median	73	0.172661750032632	0.112291663964448	0.124141899324973
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Inverse variance weighted (multiplicative random effects)	73	0.226641633548611	0.0853663013292046	0.00793246494242599
+WHR_male	SgpB1d	Stratified_male_Meta_125K_Results.tsv.annotated.txt	WHR_male	Weighted mode	73	-0.026347008909509	0.23086927562972	0.90945959290268
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	73	0.333350782503812	0.453375642110886	0.4646006175603
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted median	73	0.108254532123714	0.185056540576683	0.558560594291291
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted (multiplicative random effects)	73	0.146946123583069	0.122888486542892	0.231787094675888
+WHR_male	tokUgj	joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted mode	73	0.243391262104863	0.331027001579348	0.464568848882796
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	MR Egger	73	0.0562978402971922	0.361267780297686	0.876606010638792
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted median	73	0.147457525672285	0.13778047785022	0.284513426390852
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Inverse variance weighted (multiplicative random effects)	73	0.191782909961784	0.0976036647768373	0.0494240704026525
+WHR_male	xYCqZl	joint_colon_Male_wald_MAC50_1.TBL.annotated.txt	WHR_male	Weighted mode	73	0.0630334633029026	0.239049742691928	0.792777054015823
