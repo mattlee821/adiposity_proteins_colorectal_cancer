@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+colon_male	fKIV0j	bmi_male.txt	colon_male	MR Egger	21	-0.0978353698820579	0.0354067015728733	0.0123757701049312
+colon_male	fKIV0j	bmi_male.txt	colon_male	Weighted median	21	-0.00986095918059864	0.00948847714715707	0.29868557597815
+colon_male	fKIV0j	bmi_male.txt	colon_male	Inverse variance weighted (multiplicative random effects)	21	-0.0153974403577674	0.00916660894669188	0.0930095986290592
+colon_male	fKIV0j	bmi_male.txt	colon_male	Weighted mode	21	0.00153686328187438	0.0184129268218879	0.934310360340711
+colon_male	IYMKA9	whr_male.txt	colon_male	MR Egger	21	-0.00990023797006073	0.0381603386053666	0.798087639219408
+colon_male	IYMKA9	whr_male.txt	colon_male	Weighted median	21	0.0100377487025244	0.00967882870778597	0.299697177687324
+colon_male	IYMKA9	whr_male.txt	colon_male	Inverse variance weighted (multiplicative random effects)	21	0.00539574060899004	0.00872873934641408	0.53647115102152
+colon_male	IYMKA9	whr_male.txt	colon_male	Weighted mode	21	0.000735912189342214	0.0179641225763285	0.967729470169269
+distal_male	fKIV0j	bmi_male.txt	distal_male	MR Egger	9	-0.0483598906205086	0.0479911532938827	0.347162055846198
+distal_male	fKIV0j	bmi_male.txt	distal_male	Weighted median	9	-0.00014005632209187	0.0101487301297211	0.988989240169762
+distal_male	fKIV0j	bmi_male.txt	distal_male	Inverse variance weighted (multiplicative random effects)	9	-0.00290585754102983	0.0106284270118151	0.784542455425293
+distal_male	fKIV0j	bmi_male.txt	distal_male	Weighted mode	9	0.00610256436293295	0.0144961688255153	0.684853188076195
+distal_male	IYMKA9	whr_male.txt	distal_male	MR Egger	9	-0.0704823252684277	0.0476281961920418	0.182455241125069
+distal_male	IYMKA9	whr_male.txt	distal_male	Weighted median	9	0.00580208524920682	0.01102254255034	0.598621732006048
+distal_male	IYMKA9	whr_male.txt	distal_male	Inverse variance weighted (multiplicative random effects)	9	0.00874521296264194	0.0118231591231753	0.459501443875116
+distal_male	IYMKA9	whr_male.txt	distal_male	Weighted mode	9	0.00176019052298529	0.0161054652034816	0.915663004756056
+overall_male	fKIV0j	bmi_male.txt	overall_male	MR Egger	32	-0.0324262829761754	0.0295228318216257	0.280790637519157
+overall_male	fKIV0j	bmi_male.txt	overall_male	Weighted median	32	-0.00205616423402857	0.00901206246099449	0.819524266554049
+overall_male	fKIV0j	bmi_male.txt	overall_male	Inverse variance weighted (multiplicative random effects)	32	-0.000323848384598386	0.00855024764848828	0.969786622705739
+overall_male	fKIV0j	bmi_male.txt	overall_male	Weighted mode	32	0.00536507683249546	0.0160822705422765	0.740926041251067
+overall_male	IYMKA9	whr_male.txt	overall_male	MR Egger	32	-0.0127925349384632	0.0266678717523528	0.634920737680007
+overall_male	IYMKA9	whr_male.txt	overall_male	Weighted median	32	0.00217451095527628	0.00966828680437435	0.82204795640235
+overall_male	IYMKA9	whr_male.txt	overall_male	Inverse variance weighted (multiplicative random effects)	32	0.00668108521640459	0.00760806751229218	0.379857990606386
+overall_male	IYMKA9	whr_male.txt	overall_male	Weighted mode	32	-0.00421652278376927	0.0194532261074345	0.829821888556853
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	MR Egger	3	0.0331671422948389	0.0900695198381475	0.775381191192456
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Weighted median	3	0.00114226995577596	0.0113217507910548	0.919636483008566
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Inverse variance weighted (multiplicative random effects)	3	0.000342513916336381	0.00369006458920372	0.926046105222485
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Weighted mode	3	0.00264700644667322	0.0143516699927143	0.870677171681843
+proximal_male	IYMKA9	whr_male.txt	proximal_male	MR Egger	3	-0.00806923671216766	0.0944405296734741	0.945737393855141
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Weighted median	3	0.0234163562210518	0.0116950705808423	0.0452587591866
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Inverse variance weighted (multiplicative random effects)	3	0.022684920231955	0.0049548834712103	4.68780362473016e-06
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Weighted mode	3	0.0268673937904771	0.0150033571733434	0.215214567291401
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	MR Egger	11	0.0275072502467997	0.055304824688229	0.630848770745483
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Weighted median	11	0.00950774543127556	0.00895297831023585	0.288251786569815
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Inverse variance weighted (multiplicative random effects)	11	0.00945192331346277	0.0129536083694307	0.465588907211031
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Weighted mode	11	0.00941841937148181	0.0112435392809501	0.421783062597442
+rectal_male	IYMKA9	whr_male.txt	rectal_male	MR Egger	11	0.0157313696343358	0.0343564843752134	0.657888136412486
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Weighted median	11	0.00705933168499678	0.00970388661622501	0.466935228614337
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Inverse variance weighted (multiplicative random effects)	11	0.00666648988968753	0.00808806390428881	0.409804320090479
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Weighted mode	11	0.0142335185006411	0.0141493731604304	0.338161382772329

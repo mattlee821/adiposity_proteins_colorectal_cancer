@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+colon_male	fKIV0j	bmi_male.txt	colon_male	Maximum likelihood	45.7196484876412	20	0.000880548750153299
+colon_male	fKIV0j	bmi_male.txt	colon_male	MR Egger	35.235603671063	19	0.0130815281919528
+colon_male	fKIV0j	bmi_male.txt	colon_male	Inverse variance weighted	45.8651155777967	20	0.000841086205846352
+colon_male	fKIV0j	bmi_male.txt	colon_male	Unweighted regression	0.000830512503283461	20	1
+colon_male	IYMKA9	whr_male.txt	colon_male	Maximum likelihood	38.2275701863007	20	0.00830535005339542
+colon_male	IYMKA9	whr_male.txt	colon_male	MR Egger	37.9110525577509	19	0.00609125624460016
+colon_male	IYMKA9	whr_male.txt	colon_male	Inverse variance weighted	38.250147006273	20	0.00825254420653336
+colon_male	IYMKA9	whr_male.txt	colon_male	Unweighted regression	0.000574989687322152	20	1
+distal_male	fKIV0j	bmi_male.txt	distal_male	Maximum likelihood	19.0189670149539	8	0.014758540344764
+distal_male	fKIV0j	bmi_male.txt	distal_male	MR Egger	16.7674412785777	7	0.0189589023076434
+distal_male	fKIV0j	bmi_male.txt	distal_male	Inverse variance weighted	19.0278719585849	8	0.0147112967650964
+distal_male	fKIV0j	bmi_male.txt	distal_male	Unweighted regression	0.000258036754135338	8	1
+distal_male	IYMKA9	whr_male.txt	distal_male	Maximum likelihood	22.214642202752	8	0.004533382646151
+distal_male	IYMKA9	whr_male.txt	distal_male	MR Egger	15.7482940712898	7	0.0275181457371029
+distal_male	IYMKA9	whr_male.txt	distal_male	Inverse variance weighted	22.2994095819345	8	0.00439038670619058
+distal_male	IYMKA9	whr_male.txt	distal_male	Unweighted regression	0.000311916978792785	8	1
+overall_male	fKIV0j	bmi_male.txt	overall_male	Maximum likelihood	70.8354954785567	31	5.93538194626279e-05
+overall_male	fKIV0j	bmi_male.txt	overall_male	MR Egger	67.9162518658195	30	9.17796131004222e-05
+overall_male	fKIV0j	bmi_male.txt	overall_male	Inverse variance weighted	70.8356319657287	31	5.93513580252662e-05
+overall_male	fKIV0j	bmi_male.txt	overall_male	Unweighted regression	0.00250059092581252	31	1
+overall_male	IYMKA9	whr_male.txt	overall_male	Maximum likelihood	51.2480958250348	31	0.0125220603353996
+overall_male	IYMKA9	whr_male.txt	overall_male	MR Egger	50.3097346754923	30	0.0115136808664069
+overall_male	IYMKA9	whr_male.txt	overall_male	Inverse variance weighted	51.284373398858	31	0.0124151368854637
+overall_male	IYMKA9	whr_male.txt	overall_male	Unweighted regression	0.00072411746378588	31	1
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Maximum likelihood	0.276336462085243	2	0.870952158230748
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	MR Egger	0.141891298613386	1	0.706407998119049
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Inverse variance weighted	0.276338574603685	2	0.870951238279986
+proximal_male	fKIV0j	bmi_male.txt	proximal_male	Unweighted regression	1.80822747938012e-06	2	0.999999095886669
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Maximum likelihood	0.440559249583353	2	0.80229442518234
+proximal_male	IYMKA9	whr_male.txt	proximal_male	MR Egger	0.346897047009837	1	0.555874914152042
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Inverse variance weighted	0.454243202775097	2	0.796823881509001
+proximal_male	IYMKA9	whr_male.txt	proximal_male	Unweighted regression	3.26011636281489e-06	2	0.999998369943147
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Maximum likelihood	39.97009555193	10	1.71514364655167e-05
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	MR Egger	39.642280677273	9	8.82032040569303e-06
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Inverse variance weighted	40.1418134136631	10	1.59975404033346e-05
+rectal_male	fKIV0j	bmi_male.txt	rectal_male	Unweighted regression	0.00137660466399376	10	1
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Maximum likelihood	14.2540840831495	10	0.161714324212813
+rectal_male	IYMKA9	whr_male.txt	rectal_male	MR Egger	14.1629116471304	9	0.116647011419181
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Inverse variance weighted	14.27958883709	10	0.160616414032856
+rectal_male	IYMKA9	whr_male.txt	rectal_male	Unweighted regression	0.000286863806997499	10	1

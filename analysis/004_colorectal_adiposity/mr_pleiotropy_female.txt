@@ -1,0 +1,11 @@
+id.exposure	id.outcome	outcome	exposure	egger_intercept	se	pval
+colon_female	BibrVw	whr_female.txt	colon_female	-0.00202478735330309	0.00495360522134589	0.688906830780644
+colon_female	nLpBFB	bmi_female.txt	colon_female	0.0052185715651471	0.0044959535281901	0.265163614526801
+distal_female	BibrVw	whr_female.txt	distal_female	-0.00718635648181574	0.00884764344531122	0.447676259428022
+distal_female	nLpBFB	bmi_female.txt	distal_female	0.0291837713585128	0.0113429609805962	0.0421728294748953
+overall_female	BibrVw	whr_female.txt	overall_female	-0.00297713424777122	0.00265074598191789	0.272969235118599
+overall_female	nLpBFB	bmi_female.txt	overall_female	-0.000782696633795603	0.00428749913862644	0.856748156896362
+proximal_female	BibrVw	whr_female.txt	proximal_female	0.00110777245238004	0.0059512462614835	0.858467805852615
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	-0.000353164303362297	0.00565905874282698	0.952265813810953
+rectal_female	BibrVw	whr_female.txt	rectal_female	0.00431324246913006	0.00411123983133656	0.318810075893595
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	0.00323862555957402	0.00485337583634178	0.519685529495221

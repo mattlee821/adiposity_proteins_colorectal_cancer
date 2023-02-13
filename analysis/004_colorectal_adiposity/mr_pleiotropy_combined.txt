@@ -1,0 +1,13 @@
+id.exposure	id.outcome	outcome	exposure	egger_intercept	se	pval
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	0.00124742306720663	0.00197197474326183	0.530702406305418
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	-0.00328677132442837	0.00242489793677217	0.183079920782559
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	0.00254413521757188	0.00266323145248983	0.348959366525677
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	-0.0027571342698917	0.00301836715100196	0.370090521175649
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	0.00202676990059922	0.00142021849708713	0.158416770340966
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	-0.000900876380520005	0.00176679373904143	0.611880128429505
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	0.00157811702729755	0.00149207121362678	0.294517850640645
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	-0.00114392644741116	0.00183183865312332	0.534727085237645
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	0.00449443835209848	0.00254408054693412	0.0925500127851265
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	-0.00146936724721056	0.00294509638547691	0.623279054649698
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	0.00031828891966343	0.00215143473471104	0.883574813878656
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	0.00157090651242893	0.00200761026715857	0.441284076312341

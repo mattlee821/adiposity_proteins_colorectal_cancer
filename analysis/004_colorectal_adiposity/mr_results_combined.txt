@@ -1,0 +1,49 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	MR Egger	41	-0.0199400861290397	0.0216524074071433	0.362755151066372
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Weighted median	41	-0.00215757202747602	0.0057824570786406	0.709056348478211
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Inverse variance weighted (multiplicative random effects)	41	-0.00684236681217337	0.0062858832344654	0.276361597766753
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Weighted mode	41	0.00321227247882977	0.00827292813033828	0.69986243352345
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	MR Egger	41	0.0349495584500464	0.0265976437260101	0.196519805605679
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Weighted median	41	0.0062492725491471	0.00624200453758124	0.316747348334436
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Inverse variance weighted (multiplicative random effects)	41	0.000481768626263467	0.00787708228730956	0.951231151168711
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Weighted mode	41	0.0109471735177123	0.0083002897123856	0.194706894255186
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	MR Egger	26	-0.0263630106380369	0.0235148378228545	0.273328761621456
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Weighted median	26	-0.00320220832352082	0.00593169836433764	0.589302695668204
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Inverse variance weighted (multiplicative random effects)	26	-0.0047108754588056	0.00625105981858755	0.451082066842223
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Weighted mode	26	0.00169142214093056	0.0103406509845659	0.87138467812322
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	MR Egger	26	0.029466112400788	0.0266081636157583	0.279093156354462
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Weighted median	26	0.00997294286278121	0.0057234313974074	0.0814251564432875
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Inverse variance weighted (multiplicative random effects)	26	0.00604620291709781	0.00709265826197771	0.393959186417094
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Weighted mode	26	0.0136370144137306	0.00899901190454793	0.142216441488585
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	MR Egger	66	-0.0241855860763771	0.0176646743389339	0.175738329865497
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Weighted median	66	0.000660432562825567	0.00535918542530014	0.901921993826953
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Inverse variance weighted (multiplicative random effects)	66	-0.000472600001926918	0.00604226888586914	0.937656511472226
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Weighted mode	66	4.81363545584146e-05	0.00769612717145537	0.995028724281753
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	MR Egger	66	0.0174598826701329	0.0220225755401255	0.430813441263153
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Weighted median	66	0.0104002828427289	0.00568157231018645	0.0671708753774834
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Inverse variance weighted (multiplicative random effects)	66	0.00689632519590807	0.0074267551733446	0.353107567144594
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Weighted mode	66	0.012834401579426	0.00779945433539144	0.10468382097039
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	MR Egger	61	-0.0202274660982098	0.0179338913392691	0.263932007337228
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Weighted median	61	0.000846177991896565	0.00536700546920068	0.874722385590171
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Inverse variance weighted (multiplicative random effects)	61	-0.00233464016349591	0.0059583406527083	0.695185867743292
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Weighted mode	61	0.00135334871676324	0.00776545919230066	0.86223370039612
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	MR Egger	61	0.0199852909127418	0.0221053393445448	0.36962273906319
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Weighted median	61	0.00899063475088625	0.00565327894591234	0.111758222277281
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Inverse variance weighted (multiplicative random effects)	61	0.00696642049404615	0.00731175313671243	0.340706516465114
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Weighted mode	61	0.0136556061127864	0.00804599007206906	0.0948420456971796
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	MR Egger	22	-0.0314656937950947	0.0228833232070693	0.184325597150363
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Weighted median	22	0.00225611550495431	0.00604668294336038	0.709061944502936
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Inverse variance weighted (multiplicative random effects)	22	0.00768393382020862	0.00598651489274156	0.199302809210553
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Weighted mode	22	4.94370391244947e-06	0.00698843006354132	0.999442243514829
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	MR Egger	22	0.0100335516905738	0.0265395481816392	0.709368523956828
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Weighted median	22	0.00537878852670522	0.00600477940380403	0.370385643387413
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Inverse variance weighted (multiplicative random effects)	22	-0.00279164542554492	0.00648038745195401	0.666625636713273
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Weighted mode	22	0.00697222341295364	0.0079403684972937	0.389840064166524
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	MR Egger	27	-0.0093365939116729	0.0173597254205782	0.595449857216822
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Weighted median	27	-0.0103758414085185	0.00497803756784431	0.0371307379654369
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Inverse variance weighted (multiplicative random effects)	27	-0.00689167903420216	0.00521395939614348	0.186243222656631
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Weighted mode	27	-0.00955475043732239	0.00616656581601526	0.13336279318099
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	MR Egger	27	-0.00998213852625313	0.0162272507987746	0.544017307339578
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Weighted median	27	0.00116143661169715	0.0054000327323707	0.829705297304399
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Inverse variance weighted (multiplicative random effects)	27	0.00210339541377369	0.00493949366792182	0.670230127968623
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Weighted mode	27	0.00385428279419721	0.00764907890273092	0.618582903413992

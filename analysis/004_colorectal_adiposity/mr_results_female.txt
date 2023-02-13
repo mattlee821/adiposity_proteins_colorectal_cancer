@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	nsnp	b	se	pval
+colon_female	BibrVw	whr_female.txt	colon_female	MR Egger	16	0.00713504805449734	0.0433238875729696	0.871541554778765
+colon_female	BibrVw	whr_female.txt	colon_female	Weighted median	16	-0.00553162956875666	0.0104004544853771	0.594820042975972
+colon_female	BibrVw	whr_female.txt	colon_female	Inverse variance weighted (multiplicative random effects)	16	-0.0100044268247722	0.0105888553298325	0.344757312029678
+colon_female	BibrVw	whr_female.txt	colon_female	Weighted mode	16	-0.00476866712295648	0.0138678540034048	0.735720756123404
+colon_female	nLpBFB	bmi_female.txt	colon_female	MR Egger	16	-0.0439099738876255	0.0393642213099031	0.283426829831691
+colon_female	nLpBFB	bmi_female.txt	colon_female	Weighted median	16	-0.00294334903578687	0.00986706548031387	0.765473941085119
+colon_female	nLpBFB	bmi_female.txt	colon_female	Inverse variance weighted (multiplicative random effects)	16	0.000323854629681706	0.00997582259446144	0.974102062699438
+colon_female	nLpBFB	bmi_female.txt	colon_female	Weighted mode	16	-0.00331107900579403	0.0123736703641143	0.79265881952133
+distal_female	BibrVw	whr_female.txt	distal_female	MR Egger	8	0.0730689767194322	0.0642696474762608	0.298932754549006
+distal_female	BibrVw	whr_female.txt	distal_female	Weighted median	8	0.025522834793029	0.00895019490394053	0.00434927846193364
+distal_female	BibrVw	whr_female.txt	distal_female	Inverse variance weighted (multiplicative random effects)	8	0.0211820703741896	0.00632310421671743	0.000808267302054393
+distal_female	BibrVw	whr_female.txt	distal_female	Weighted mode	8	0.0297099923385763	0.0123772635899593	0.0474404690331137
+distal_female	nLpBFB	bmi_female.txt	distal_female	MR Egger	8	-0.219031424862871	0.0824840460643571	0.0377532358678155
+distal_female	nLpBFB	bmi_female.txt	distal_female	Weighted median	8	-0.00428332746180941	0.0105595171145439	0.685009573841883
+distal_female	nLpBFB	bmi_female.txt	distal_female	Inverse variance weighted (multiplicative random effects)	8	-0.00810123396098426	0.0121886209693125	0.50627086256651
+distal_female	nLpBFB	bmi_female.txt	distal_female	Weighted mode	8	0.00173329703200525	0.0144503906264885	0.907894334563296
+overall_female	BibrVw	whr_female.txt	overall_female	MR Egger	25	0.0228420712534485	0.0248997131307386	0.368472485879091
+overall_female	BibrVw	whr_female.txt	overall_female	Weighted median	25	0.00311177180381277	0.00815641494289985	0.70282322071424
+overall_female	BibrVw	whr_female.txt	overall_female	Inverse variance weighted (multiplicative random effects)	25	-0.00406029865339395	0.00683757501346549	0.55263154625297
+overall_female	BibrVw	whr_female.txt	overall_female	Weighted mode	25	0.00342925060250771	0.0117975963079367	0.773797946917667
+overall_female	nLpBFB	bmi_female.txt	overall_female	MR Egger	25	-0.00490795423588472	0.0404204947293163	0.904411064250283
+overall_female	nLpBFB	bmi_female.txt	overall_female	Weighted median	25	0.000633194701786138	0.00830913844422247	0.939256310587029
+overall_female	nLpBFB	bmi_female.txt	overall_female	Inverse variance weighted (multiplicative random effects)	25	-0.0120077982398434	0.0107866501733589	0.265618591169445
+overall_female	nLpBFB	bmi_female.txt	overall_female	Weighted mode	25	0.00429597123605499	0.0112041869938083	0.704779762814375
+proximal_female	BibrVw	whr_female.txt	proximal_female	MR Egger	8	-0.0164825964239558	0.0405346489389453	0.698386915225365
+proximal_female	BibrVw	whr_female.txt	proximal_female	Weighted median	8	-0.00436975250651112	0.00958479357613141	0.648458504627176
+proximal_female	BibrVw	whr_female.txt	proximal_female	Inverse variance weighted (multiplicative random effects)	8	-0.00913184777599009	0.00848868606312295	0.282031504084389
+proximal_female	BibrVw	whr_female.txt	proximal_female	Weighted mode	8	-0.00400636019940322	0.0129315421066937	0.765722636009189
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	MR Egger	8	0.00504719867887633	0.038514824571802	0.900022768043392
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Weighted median	8	-0.001791089814027	0.0088895088377235	0.840320489507664
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Inverse variance weighted (multiplicative random effects)	8	0.00270577003348019	0.00805966009579477	0.737083805413361
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Weighted mode	8	0.000956954899180837	0.0122777231902883	0.940055059282167
+rectal_female	BibrVw	whr_female.txt	rectal_female	MR Egger	12	-0.0278302699321039	0.0264113894882831	0.316804359721441
+rectal_female	BibrVw	whr_female.txt	rectal_female	Weighted median	12	0.000108936982919353	0.00711032013822359	0.987776114893447
+rectal_female	BibrVw	whr_female.txt	rectal_female	Inverse variance weighted (multiplicative random effects)	12	-0.000708230020949437	0.00543250002420073	0.896274429723585
+rectal_female	BibrVw	whr_female.txt	rectal_female	Weighted mode	12	0.00223725319228273	0.0127198977165155	0.863579553367461
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	MR Egger	12	-0.0244763544425407	0.0312788781339972	0.452040903681453
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Weighted median	12	-0.00628206849205748	0.00701160620371358	0.370277951167673
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Inverse variance weighted (multiplicative random effects)	12	-0.00405271232912294	0.00628497516509308	0.519040267123418
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Weighted mode	12	-0.00899832130859057	0.00932547400894748	0.355320174921778

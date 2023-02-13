@@ -1,0 +1,49 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Maximum likelihood	124.78064877114	40	1.20221198405894e-10
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	MR Egger	123.630472978694	39	9.92738618982221e-11
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Inverse variance weighted	124.898959242279	40	1.1532962624719e-10
+colon_combined	45of2Z	bmi_combined.txt	colon_combined	Unweighted regression	0.00088960508355346	40	1
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Maximum likelihood	179.669151369659	40	1.3100380383231e-19
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	MR Egger	171.586702597896	39	1.47987836908712e-18
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Inverse variance weighted	179.669674553781	40	1.30976686214138e-19
+colon_combined	Cv4eJs	whr_combined.txt	colon_combined	Unweighted regression	0.00128638525889862	40	1
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Maximum likelihood	74.0342232578517	25	9.52281139207842e-07
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	MR Egger	71.3852672224244	24	1.34615275736236e-06
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Inverse variance weighted	74.0995800876681	25	9.30730705685602e-07
+distal_combined	45of2Z	bmi_combined.txt	distal_combined	Unweighted regression	0.000332326516888941	25	1
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Maximum likelihood	88.353286398656	25	5.3022408445447e-09
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	MR Egger	85.4822536415072	24	7.95739343902598e-09
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Inverse variance weighted	88.4541689070483	25	5.10611798986246e-09
+distal_combined	Cv4eJs	whr_combined.txt	distal_combined	Unweighted regression	0.000450286924283668	25	1
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Maximum likelihood	232.582316090651	65	1.07045355472627e-20
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	MR Egger	225.410738434091	64	7.68576473811026e-20
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Inverse variance weighted	232.583612242995	65	1.06994570437829e-20
+overall_combined	45of2Z	bmi_combined.txt	overall_combined	Unweighted regression	0.00216617435293809	65	1
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Maximum likelihood	323.604041051186	65	5.50315502115213e-36
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	MR Egger	322.422861913575	64	3.91725796383794e-36
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Inverse variance weighted	323.732660606185	65	5.22489663310592e-36
+overall_combined	Cv4eJs	whr_combined.txt	overall_combined	Unweighted regression	0.00581987126494584	65	1
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Maximum likelihood	197.929209245077	60	1.23233625067365e-16
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	MR Egger	194.270714238727	59	2.45327982041187e-16
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Inverse variance weighted	197.954163003556	60	1.22145225496197e-16
+overall_combined_HRC	45of2Z	bmi_combined.txt	overall_combined_HRC	Unweighted regression	0.0020700872344471	60	1
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Maximum likelihood	275.31904634506	60	2.48753036029088e-29
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	MR Egger	273.656874726768	59	2.20865171287839e-29
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Inverse variance weighted	275.465614612647	60	2.34738448316494e-29
+overall_combined_HRC	Cv4eJs	whr_combined.txt	overall_combined_HRC	Unweighted regression	0.00555418063001983	60	1
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Maximum likelihood	51.4077254762962	21	0.000231626642300518
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	MR Egger	44.5803981912775	20	0.00125750578373322
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Inverse variance weighted	51.5370952048511	21	0.000222086033964098
+proximal_combined	45of2Z	bmi_combined.txt	proximal_combined	Unweighted regression	0.000223247074758777	21	1
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Maximum likelihood	55.8055104188126	21	5.38990313666733e-05
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	MR Egger	55.1412352658058	20	3.91126347382045e-05
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Inverse variance weighted	55.8275260702321	21	5.34996166876644e-05
+proximal_combined	Cv4eJs	whr_combined.txt	proximal_combined	Unweighted regression	0.000275254042240161	21	1
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Maximum likelihood	66.9663593344568	26	1.81504052761431e-05
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	MR Egger	67.0063554300193	25	1.06061176804084e-05
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Inverse variance weighted	67.0650182149071	26	1.75719459129838e-05
+rectal_combined	45of2Z	bmi_combined.txt	rectal_combined	Unweighted regression	0.00037334054376656	26	1
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Maximum likelihood	55.1184946044963	26	0.000732300161956719
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	MR Egger	53.81354956271	25	0.000702461976745876
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Inverse variance weighted	55.1314830549727	26	0.00072950907345171
+rectal_combined	Cv4eJs	whr_combined.txt	rectal_combined	Unweighted regression	0.000428353300665717	26	1

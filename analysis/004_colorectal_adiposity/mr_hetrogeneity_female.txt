@@ -1,0 +1,41 @@
+id.exposure	id.outcome	outcome	exposure	method	Q	Q_df	Q_pval
+colon_female	BibrVw	whr_female.txt	colon_female	Maximum likelihood	37.8662313165421	15	0.000944276454792816
+colon_female	BibrVw	whr_female.txt	colon_female	MR Egger	37.5400898840458	14	0.000610811500596196
+colon_female	BibrVw	whr_female.txt	colon_female	Inverse variance weighted	37.9880953644966	15	0.00090595481339679
+colon_female	BibrVw	whr_female.txt	colon_female	Unweighted regression	0.000315802330230578	15	1
+colon_female	nLpBFB	bmi_female.txt	colon_female	Maximum likelihood	35.3918949143218	15	0.00216181650560138
+colon_female	nLpBFB	bmi_female.txt	colon_female	MR Egger	32.2850566614517	14	0.00364848920419227
+colon_female	nLpBFB	bmi_female.txt	colon_female	Inverse variance weighted	35.3919988853775	15	0.00216174243088432
+colon_female	nLpBFB	bmi_female.txt	colon_female	Unweighted regression	0.000337523871167323	15	1
+distal_female	BibrVw	whr_female.txt	distal_female	Maximum likelihood	5.47841580969996	7	0.601788594800757
+distal_female	BibrVw	whr_female.txt	distal_female	MR Egger	4.9700407822821	6	0.547661334993908
+distal_female	BibrVw	whr_female.txt	distal_female	Inverse variance weighted	5.62976478981511	7	0.583581414256531
+distal_female	BibrVw	whr_female.txt	distal_female	Unweighted regression	4.43102624175301e-05	7	1
+distal_female	nLpBFB	bmi_female.txt	distal_female	Maximum likelihood	22.1870397400838	7	0.00235846081838766
+distal_female	nLpBFB	bmi_female.txt	distal_female	MR Egger	10.6003550848214	6	0.101541531769545
+distal_female	nLpBFB	bmi_female.txt	distal_female	Inverse variance weighted	22.2953251619008	7	0.00225898835338584
+distal_female	nLpBFB	bmi_female.txt	distal_female	Unweighted regression	0.000179026363204398	7	0.999999999999999
+overall_female	BibrVw	whr_female.txt	overall_female	Maximum likelihood	34.1955508918457	24	0.0812531609397065
+overall_female	BibrVw	whr_female.txt	overall_female	MR Egger	32.4302332656572	23	0.0915214854759511
+overall_female	BibrVw	whr_female.txt	overall_female	Inverse variance weighted	34.2088519504711	24	0.0810250996356116
+overall_female	BibrVw	whr_female.txt	overall_female	Unweighted regression	0.000380968109960474	24	1
+overall_female	nLpBFB	bmi_female.txt	overall_female	Maximum likelihood	87.9583587278448	24	3.13036326599804e-09
+overall_female	nLpBFB	bmi_female.txt	overall_female	MR Egger	88.0804503060017	23	1.48934252266917e-09
+overall_female	nLpBFB	bmi_female.txt	overall_female	Inverse variance weighted	88.2080737707304	24	2.84795095202561e-09
+overall_female	nLpBFB	bmi_female.txt	overall_female	Unweighted regression	0.000689406401295548	24	1
+proximal_female	BibrVw	whr_female.txt	proximal_female	Maximum likelihood	9.91217142952552	7	0.193605515468044
+proximal_female	BibrVw	whr_female.txt	proximal_female	MR Egger	9.90033959108101	6	0.128912162554217
+proximal_female	BibrVw	whr_female.txt	proximal_female	Inverse variance weighted	9.95751168783948	7	0.190994057267673
+proximal_female	BibrVw	whr_female.txt	proximal_female	Unweighted regression	8.52639401622296e-05	7	1
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Maximum likelihood	9.5058388529532	7	0.218348380672815
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	MR Egger	9.50347226961709	6	0.147179818947562
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Inverse variance weighted	9.50964100665623	7	0.218105461258995
+proximal_female	nLpBFB	bmi_female.txt	proximal_female	Unweighted regression	8.97506086392872e-05	7	1
+rectal_female	BibrVw	whr_female.txt	rectal_female	Maximum likelihood	11.9444706361399	11	0.367831646028412
+rectal_female	BibrVw	whr_female.txt	rectal_female	MR Egger	10.7605250659159	10	0.376477222309959
+rectal_female	BibrVw	whr_female.txt	rectal_female	Inverse variance weighted	11.9449173904981	11	0.367797833524222
+rectal_female	BibrVw	whr_female.txt	rectal_female	Unweighted regression	8.01898246338464e-05	11	1
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Maximum likelihood	16.6720358350049	11	0.117957930238991
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	MR Egger	15.9771841910425	10	0.100287394489494
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Inverse variance weighted	16.6886169727202	11	0.11742957458225
+rectal_female	nLpBFB	bmi_female.txt	rectal_female	Unweighted regression	0.000150787400392697	11	1
