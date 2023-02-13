@@ -1,0 +1,4 @@
+sequence_id	protein	gene	adiposity	group	outcome
+4811_33	ITI_heavy_chain_H4	ITIH4	WHR	Male	rectal
+7206_20	F16P1	FBP1	WHR	Male	proximal
+8841_65	CILP2	CILP2	WHR	Male	rectal

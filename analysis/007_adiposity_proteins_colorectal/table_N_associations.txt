@@ -1,0 +1,17 @@
+analysis	bmi_combined	bmi_male	bmi_female	whr_combined	whr_male	whr_female
+adiposity > protein	1967	864	2429	790	53	568
+adiposity-proteins > adiposity	61	40	76	65	51	45
+adiposity-proteins conflict	21	8	34	11	1	5
+adiposity-protein association	1946	856	2395	779	52	563
+adiposity-proteins > cancer	170	120	265	76	3	47
+adiposity-protein < cancer	0	3	0	0	0	0
+adiposity-protein-cancer associations	302	149	350	133	3	59
+adiposity-protein-cancer associations - N unique proteins	170	117	265	76	3	47
+adiposity-protein-cancer intermediates	83	58	205	37	0	43
+adiposity-protein-cancer intermediates - N unique proteins	58	53	164	29	0	33
+overall	18	5	21	8	0	9
+overall-EUR	11	0	0	5	0	0
+colon	10	16	14	9	0	3
+distal	12	23	17	5	0	0
+proximal	25	11	102	8	0	21
+rectal	7	3	51	2	0	10
