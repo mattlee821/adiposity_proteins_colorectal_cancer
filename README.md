@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7636326.svg)](https://doi.org/10.5281/zenodo.7636326)
 
 # Adiposity, proteins, and colorectal cancer risk: Mendelian randomization analyses
 
