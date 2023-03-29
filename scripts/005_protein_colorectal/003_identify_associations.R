@@ -2,6 +2,7 @@ rm(list=ls())
 ## set environment ====
 library(dplyr)
 library(tidyr)
+library(forcats)
 
 # data ====
 data <- read.table("analysis/003_proteins_colorectal/001_MR_results.txt", header = T, sep = "\t")
