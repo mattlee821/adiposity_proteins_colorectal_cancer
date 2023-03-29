@@ -62,7 +62,7 @@ data_bmi <- subset(data, adiposity == "BMI")
 data_whr <- subset(data, adiposity == "WHR")
 
 # plot variables====
-psignif <- 0.05
+psignif <- 1
 ci <- 0.95
 
 # bmi plot ====
@@ -98,41 +98,6 @@ p1 <- my_forestplot(df = plot_data,
 
 pdf("analysis/008_mvmr/figures/BMI_overall.pdf",
     width = 13, height = 8 , pointsize = 10)
-p1
-dev.off()
-
-## overall-HRC-EUR ====
-plot_data <- data_bmi
-plot_data <- subset(plot_data, cancer == "overall-HRC-EUR")
-plot_data <- plot_data[plot_data$ID1 %in% adiposity_labels, ]
-plot_data$label <- paste0(round(exp(plot_data$b),2), "; ", round(exp(plot_data$b - (1.96 * plot_data$se)),2), " - ", round(exp(plot_data$b + (1.96 * plot_data$se)),2))
-
-x_min <- min(exp(plot_data$b - (1.96 * plot_data$se)))
-x_max <- max(exp(plot_data$b + (1.96 * plot_data$se)))
-
-p1 <- my_forestplot(df = plot_data,
-                    name = x_axis,
-                    estimate = b,
-                    pvalue = p,
-                    psignif = psignif,
-                    ci = ci,
-                    se = se,
-                    colour = method,
-                    logodds = T) +
-  xlab(label = "Odds ratio and 95% confidence interval") +
-  theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
-  scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
-  ggtitle("Overall HRC-EUR only colorectal cancer") +
-  ggforce::facet_col(facets = ~group,
-                     scales = "free_y",
-                     space = "free") +
-  aes(label = plot_data$label) +
-  geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
-
-pdf("analysis/008_mvmr/figures/BMI_overall-HRC-EUR.pdf",
-    width = 13, height = 3, pointsize = 10)
 p1
 dev.off()
 
@@ -191,7 +156,7 @@ p1 <- my_forestplot(df = plot_data,
                     logodds = T) +
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, x_max*1.035)) +
+  coord_cartesian(xlim = c(1, x_max*1.038)) +
   scale_x_continuous() +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Proximal colorectal cancer") +
@@ -202,7 +167,7 @@ p1 <- my_forestplot(df = plot_data,
   geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
 
 pdf("analysis/008_mvmr/figures/BMI_proximal.pdf",
-    width = 13, height = 7, pointsize = 10)
+    width = 13, height = 24, pointsize = 10)
 p1
 dev.off()
 
@@ -237,7 +202,7 @@ p1 <- my_forestplot(df = plot_data,
   geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
 
 pdf("analysis/008_mvmr/figures/BMI_distal.pdf",
-    width = 13, height = 8, pointsize = 10)
+    width = 13, height = 9, pointsize = 10)
 p1
 dev.off()
 
@@ -272,7 +237,7 @@ p1 <- my_forestplot(df = plot_data,
   geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
 
 pdf("analysis/008_mvmr/figures/BMI_rectal.pdf",
-    width = 13, height = 9, pointsize = 10)
+    width = 13, height = 10, pointsize = 10)
 p1
 dev.off()
 
@@ -310,41 +275,6 @@ p1 <- my_forestplot(df = plot_data,
 
 pdf("analysis/008_mvmr/figures/WHR_overall.pdf",
     width = 13, height = 5, pointsize = 10)
-p1
-dev.off()
-
-## overall-HRC-EUR ====
-plot_data <- data_whr
-plot_data <- subset(plot_data, cancer == "overall-HRC-EUR")
-plot_data <- plot_data[plot_data$ID1 %in% adiposity_labels, ]
-plot_data$label <- paste0(round(exp(plot_data$b),2), "; ", round(exp(plot_data$b - (1.96 * plot_data$se)),2), " - ", round(exp(plot_data$b + (1.96 * plot_data$se)),2))
-
-x_min <- min(exp(plot_data$b - (1.96 * plot_data$se)))
-x_max <- max(exp(plot_data$b + (1.96 * plot_data$se)))
-
-p1 <- my_forestplot(df = plot_data,
-                    name = x_axis,
-                    estimate = b,
-                    pvalue = p,
-                    psignif = psignif,
-                    ci = ci,
-                    se = se,
-                    colour = method,
-                    logodds = T) +
-  xlab(label = "Odds ratio and 95% confidence interval") +
-  theme(legend.position = "none") +
-  coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
-  scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
-  ggtitle("Overall HRC-EUR colorectal cancer") +
-  ggforce::facet_col(facets = ~group,
-                     scales = "free_y",
-                     space = "free") +
-  aes(label = plot_data$label) +
-  geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
-
-pdf("analysis/008_mvmr/figures/WHR_overall-HRC-EUR.pdf",
-    width = 13, height = 4, pointsize = 10)
 p1
 dev.off()
 
@@ -414,7 +344,7 @@ p1 <- my_forestplot(df = plot_data,
   geom_text(x = x_max*1.01, vjust = 0.5, hjust = 0)
 
 pdf("analysis/008_mvmr/figures/WHR_proximal.pdf",
-    width = 13, height = 3, pointsize = 10)
+    width = 13, height = 8, pointsize = 10)
 p1
 dev.off()
 

@@ -56,6 +56,8 @@ data$exposure[data$exposure == "proximal_female"] <- "proximal"
 data$exposure[data$exposure == "rectal_female"] <- "rectal"
 
 # format protein names ====
+data$outcome <- gsub("/data/protein_GWAS_ferkingstad_EU_2021/files/", "", data$outcome)
+
 # sequence_id column 
 ncols <- max(stringr::str_count(data$outcome, "_")) + 1
 colmn <- paste0("col", 1:ncols)

@@ -1,9 +1,11 @@
 rm(list=ls())
 ## set environment ====
 library(dplyr)
+library(readxl)
 
 # data ====
 data <- fread("analysis/010_UKB_proteins_colorectal/mr_results.txt")
+data <- subset(data, outcome != "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt_with_header.txt")
 
 # OR and CI
 data$OR <- exp(data$b)
@@ -26,14 +28,12 @@ data$group[data$outcome == "joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt"]
 data$group[data$outcome == "joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt"] <- "Female"
 data$group[data$outcome == "joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt"] <- "Male"
 data$group[data$outcome == "MarginalMeta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
-data$group[data$outcome == "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_colon_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_distal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_proximal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_rectal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_female_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Female"
 data$group[data$outcome == "Stratified_male_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "Male"
-data$group[data$outcome == "joint_Early_Onset_wald_MAC50_1.txt.annotated.txt"] <- "Sex-combined"
 
 # outcomes ====
 table(data$outcome)
@@ -46,14 +46,12 @@ data$outcome[data$outcome == "joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt
 data$outcome[data$outcome == "joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt"] <- "rectal"
 data$outcome[data$outcome == "joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt"] <- "rectal"
 data$outcome[data$outcome == "MarginalMeta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "overall"
-data$outcome[data$outcome == "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt_with_header.txt"] <- "overall-HRC-EUR"
 data$outcome[data$outcome == "Stratified_colon_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "colon"
 data$outcome[data$outcome == "Stratified_distal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "distal"
 data$outcome[data$outcome == "Stratified_proximal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "proximal"
 data$outcome[data$outcome == "Stratified_rectal_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "rectal"
 data$outcome[data$outcome == "Stratified_female_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "overall"
 data$outcome[data$outcome == "Stratified_male_Meta_125K_Results.tsv.annotated.txt_with_header.txt"] <- "overall"
-data$outcome[data$outcome == "joint_Early_Onset_wald_MAC50_1.txt.annotated.txt"] <- "early_onset"
 
 data$id.outcome <- paste0(data$outcome, "_", data$group)
 

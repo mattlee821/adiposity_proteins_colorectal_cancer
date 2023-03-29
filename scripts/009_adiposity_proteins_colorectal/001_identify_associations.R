@@ -120,12 +120,13 @@ table4 <- data.frame(
 # adiposity-protein cancer associations ====
 protein_cancer <- read.table("analysis/003_proteins_colorectal/003_phenospd_directionally_associated_proteins.txt", header = T, sep = "\t")
 protein_cancer <- protein_cancer[,c("sequence_id", "protein", "gene", "group", "outcome")]
+protein_cancer <- subset(protein_cancer, outcome != "overall-HRC-EUR")
+protein_cancer <- subset(protein_cancer, outcome != "early_onset")
 
 # make  association list bmi ====
 data <- read.table("analysis/007_adiposity_proteins_colorectal/phenospd/000_bmi_proteins_combined.txt", header = T, sep = "\t")
 a <- left_join(data, protein_cancer, by = c("sequence_id", "protein", "gene", "group"))
 a <- a[complete.cases(a), ]
-a <- subset(a, outcome != "early_onset")
 bmi_protein_cancer_combined <- unique(a$sequence_id)
 write.table(a, "analysis/007_adiposity_proteins_colorectal/phenospd/001_bmi_protein_crc_combined.txt", 
             row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
@@ -368,7 +369,6 @@ table8a <- data.frame(
 # MVMR by cancer
 table9 <- data.frame(
   analysis = c("overall",
-               "overall-EUR",
                "colon",
                "distal",
                "proximal",
@@ -376,7 +376,6 @@ table9 <- data.frame(
   
   bmi_combined = c(
     nrow(subset(a, adiposity == "BMI" & group == "Sex-combined" & cancer == "overall")),
-    nrow(subset(a, adiposity == "BMI" & group == "Sex-combined" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "BMI" & group == "Sex-combined" & cancer == "colon")),
     nrow(subset(a, adiposity == "BMI" & group == "Sex-combined" & cancer == "distal")),
     nrow(subset(a, adiposity == "BMI" & group == "Sex-combined" & cancer == "proximal")),
@@ -385,7 +384,6 @@ table9 <- data.frame(
   
   bmi_male = c(  
     nrow(subset(a, adiposity == "BMI" & group == "Male" & cancer == "overall")),
-    nrow(subset(a, adiposity == "BMI" & group == "Male" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "BMI" & group == "Male" & cancer == "colon")),
     nrow(subset(a, adiposity == "BMI" & group == "Male" & cancer == "distal")),
     nrow(subset(a, adiposity == "BMI" & group == "Male" & cancer == "proximal")),
@@ -394,7 +392,6 @@ table9 <- data.frame(
   
   bmi_female = c(
     nrow(subset(a, adiposity == "BMI" & group == "Female" & cancer == "overall")),
-    nrow(subset(a, adiposity == "BMI" & group == "Female" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "BMI" & group == "Female" & cancer == "colon")),
     nrow(subset(a, adiposity == "BMI" & group == "Female" & cancer == "distal")),
     nrow(subset(a, adiposity == "BMI" & group == "Female" & cancer == "proximal")),
@@ -403,7 +400,6 @@ table9 <- data.frame(
   
   whr_combined = c(
     nrow(subset(a, adiposity == "WHR" & group == "Sex-combined" & cancer == "overall")),
-    nrow(subset(a, adiposity == "WHR" & group == "Sex-combined" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "WHR" & group == "Sex-combined" & cancer == "colon")),
     nrow(subset(a, adiposity == "WHR" & group == "Sex-combined" & cancer == "distal")),
     nrow(subset(a, adiposity == "WHR" & group == "Sex-combined" & cancer == "proximal")),
@@ -412,7 +408,6 @@ table9 <- data.frame(
   
   whr_male = c(  
     nrow(subset(a, adiposity == "WHR" & group == "Male" & cancer == "overall")),
-    nrow(subset(a, adiposity == "WHR" & group == "Male" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "WHR" & group == "Male" & cancer == "colon")),
     nrow(subset(a, adiposity == "WHR" & group == "Male" & cancer == "distal")),
     nrow(subset(a, adiposity == "WHR" & group == "Male" & cancer == "proximal")),
@@ -421,7 +416,6 @@ table9 <- data.frame(
   
   whr_female = c(
     nrow(subset(a, adiposity == "WHR" & group == "Female" & cancer == "overall")),
-    nrow(subset(a, adiposity == "WHR" & group == "Female" & cancer == "overall-HRC-EUR")),
     nrow(subset(a, adiposity == "WHR" & group == "Female" & cancer == "colon")),
     nrow(subset(a, adiposity == "WHR" & group == "Female" & cancer == "distal")),
     nrow(subset(a, adiposity == "WHR" & group == "Female" & cancer == "proximal")),

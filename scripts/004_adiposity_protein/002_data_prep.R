@@ -1,6 +1,7 @@
 rm(list=ls())
 ## set environment ====
 library(dplyr)
+library(data.table)
 
 # data ====
 data <- fread("analysis/002_adiposity_proteins/mr_results.txt")

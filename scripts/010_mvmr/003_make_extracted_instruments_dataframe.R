@@ -112,9 +112,10 @@ write.table(data, "data/000_mvmr_data/001_protein_data.txt",
 
 # cancer ====
 filenames <- dir("data/000_mvmr_data/cancer/", recursive = TRUE, full.names = TRUE, pattern = ".txt")
+filenames <- filenames[-10]
 list <- lapply(filenames, read.table, header = F)
 list1 <- list[c(1:8)]
-list2 <- list[c(9:16)]
+list2 <- list[c(9:15)]
 
 data1 <- bind_rows(list1)
 data1 <- data1[,c(17,18,19,2,3,4,8,9,10,25)]
@@ -136,14 +137,12 @@ data$group[data$outcome == "joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt"]
 data$group[data$outcome == "joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt"] <- "Female"
 data$group[data$outcome == "joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt"] <- "Male"
 data$group[data$outcome == "MarginalMeta_125K_Results.tsv.annotated.txt"] <- "Sex-combined"
-data$group[data$outcome == "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_colon_Meta_125K_Results.tsv.annotated.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_distal_Meta_125K_Results.tsv.annotated.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_proximal_Meta_125K_Results.tsv.annotated.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_rectal_Meta_125K_Results.tsv.annotated.txt"] <- "Sex-combined"
 data$group[data$outcome == "Stratified_female_Meta_125K_Results.tsv.annotated.txt"] <- "Female"
 data$group[data$outcome == "Stratified_male_Meta_125K_Results.tsv.annotated.txt"] <- "Male"
-data$group[data$outcome == "joint_Early_Onset_wald_MAC50_1.txt.annotated.txt"] <- "Sex-combined"
 
 data$cancer[data$outcome == "joint_colon_Female_wald_MAC50_1.TBL.annotated.txt"] <- "colon"
 data$cancer[data$outcome == "joint_colon_Male_wald_MAC50_1.TBL.annotated.txt"] <- "colon"
@@ -154,19 +153,15 @@ data$cancer[data$outcome == "joint_proximal_Male_wald_MAC50_1.TBL.annotated.txt"
 data$cancer[data$outcome == "joint_rectal_Female_wald_MAC50_1.TBL.annotated.txt"] <- "rectal"
 data$cancer[data$outcome == "joint_rectal_Male_wald_MAC50_1.TBL.annotated.txt"] <- "rectal"
 data$cancer[data$outcome == "MarginalMeta_125K_Results.tsv.annotated.txt"] <- "overall"
-data$cancer[data$outcome == "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt"] <- "overall-HRC-EUR"
 data$cancer[data$outcome == "Stratified_colon_Meta_125K_Results.tsv.annotated.txt"] <- "colon"
 data$cancer[data$outcome == "Stratified_distal_Meta_125K_Results.tsv.annotated.txt"] <- "distal"
 data$cancer[data$outcome == "Stratified_proximal_Meta_125K_Results.tsv.annotated.txt"] <- "proximal"
 data$cancer[data$outcome == "Stratified_rectal_Meta_125K_Results.tsv.annotated.txt"] <- "rectal"
 data$cancer[data$outcome == "Stratified_female_Meta_125K_Results.tsv.annotated.txt"] <- "overall"
 data$cancer[data$outcome == "Stratified_male_Meta_125K_Results.tsv.annotated.txt"] <- "overall"
-data$cancer[data$outcome == "joint_Early_Onset_wald_MAC50_1.txt.annotated.txt"] <- "early_onset"
 
 # add N for each CRC outcome
 data$samplesize.outcome[data$outcome == "MarginalMeta_125K_Results.tsv.annotated.txt"] <- (58131 + 67347)
-data$samplesize.outcome[data$outcome == "MarginalMeta_HRC_EUR_only_Results.tsv.annotated.txt"] <- 67347
-data$samplesize.outcome[data$outcome == "joint_Early_Onset_wald_MAC50_1.txt.annotated.txt"] <- (6176 + 65829)
 
 data$samplesize.outcome[data$outcome == "Stratified_colon_Meta_125K_Results.tsv.annotated.txt"] <- (32002 + 64159)
 data$samplesize.outcome[data$outcome == "Stratified_distal_Meta_125K_Results.tsv.annotated.txt"] <- (14376 + 64159)

@@ -73,6 +73,8 @@ colnames(harmonise_data) <- c(
     "adiposity_se","protein_se", "cancer_se",
     "ID")
 
+harmonise_data <- subset(harmonise_data, !grepl("HRC-EUR", harmonise_data[,"ID"]))
+
 harmonise_outcome <- split(harmonise_data, f = harmonise_data$ID) # make a list of data frames with each data frame for each ID
 
 # make MVMR data ====
