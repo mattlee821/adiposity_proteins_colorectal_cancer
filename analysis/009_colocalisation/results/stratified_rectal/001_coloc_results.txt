@@ -1,2 +1,0 @@
-exposure	outcome	id	nsnps	h0	h1	h2	h3	h4
-18878_15_GREM1_GREM1	stratified_rectal	18878_15_GREM1_GREM1_stratified_rectal	5456	0	1.51201168428948e-30	0	0.0118691076506533	0.988130892349057
