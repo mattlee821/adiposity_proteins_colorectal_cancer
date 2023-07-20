@@ -29,6 +29,7 @@ a <- subset(a, cancer == "proximal")
 filenames_mvmr <- paste0("/data/protein_GWAS_ferkingstad_EU_2021/files/cis_snps_1mb//", a$exposure, "_", a$gene, "_", a$protein, ".txt.gz.annotated.gz.exclusions.gz.alleles.gz.unzipped.cis.txt")
 filenames_all <- dir("/data/protein_GWAS_ferkingstad_EU_2021/files/cis_snps_1mb/", recursive = TRUE, full.names = TRUE, pattern = ".cis.txt")
 filenames <- intersect(filenames_mvmr, filenames_all)
+filenames <- filenames_all
 
 # exposure ====
 exposure_list <- lapply(filenames, fread, col.names = c("CHR", "POS", "SNPID", "SNP", "EA", "OA",
@@ -87,11 +88,17 @@ for (i in 1:length(exposure_list)){
 
 # harmonise ====
 exposure <- bind_rows(exposure_list)
+write.table(exposure, "analysis/009_colocalisation/results/stratified_proximal/exposure_data.txt", 
+            row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 outcome <- bind_rows(outcome_list)
+write.table(outcome, "analysis/009_colocalisation/results/stratified_proximal/outcome_data.txt", 
+            row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 harmonise_data <- harmonise_data(exposure, outcome, action = 2)
 harmonise_data$remove_duplicates <- paste0(harmonise_data$SNP, "_", harmonise_data$id.exposure)
 harmonise_data <- harmonise_data[!duplicated(harmonise_data$remove_duplicates),]
 harmonise_data_list <- split(harmonise_data, harmonise_data$id.exposure)
+write.table(harmonise_data, "analysis/009_colocalisation/results/stratified_proximal/harmonise_data.txt", 
+            row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 # loop over all harmonised data and run ld matrix, formatting, coloc, save ====
 table_master <- data.frame() # make empty dataframe for final results
@@ -121,7 +128,7 @@ for (i in 1:length(harmonise_data_list)){
   coloc_data_outcome <- list(beta = harmonise_data_list[[i]]$beta.outcome, varbeta = harmonise_data_list[[i]]$se.outcome^2, MAF = harmonise_data_list[[i]]$eaf.outcome, type = "cc", N = 120328, snp = rownames(ld), LD = ld, position = harmonise_data_list[[i]]$POS)
   
   # coloc ====  
-  coloc_results <- coloc.abf(dataset1 = coloc_data_exposure, dataset2 = coloc_data_outcome)
+  coloc_results <- coloc.abf(dataset1 = coloc_data_exposure, dataset2 = coloc_data_outcome, p1 = 1E-6, p2 = 1E-6, p12 = 1E-7)
   
   pdf(paste0("analysis/009_colocalisation/results/stratified_proximal/figures/", label, ".pdf"), 
       height = 10, width = 10)

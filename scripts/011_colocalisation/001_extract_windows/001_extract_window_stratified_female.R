@@ -33,13 +33,13 @@ for (i in 1:length(exposure_list)){
 }
 
 ## extract outcome data ====
-filenames <- c("Stratified_female_Meta_125K_Results.tsv.annotated.txt_with_header.txt")
+filenames <- c("Stratified_female_Meta_125K_Results.tsv.annotated.txt")
 
 outcome_list <- list()
 
 for (i in 1:length(exposure_list)){
     
-    outcome_list[i] <- lapply(paste0("../000_datasets/colorectal_cancer/GECCO_125K_GWAS_results/",filenames), 
+    outcome_list[i] <- lapply(paste0("/data/GWAS_data/files/huyghe_2018_PMID30510241/processed/",filenames), 
                               read_outcome_data,
                               snps = exposure_list[[i]]$SNP,
                               sep = " ",

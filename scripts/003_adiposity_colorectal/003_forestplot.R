@@ -22,7 +22,7 @@ plot_data <- data
 plot_data$exposure <- factor(plot_data$exposure, levels = c("BMI", "WHR"))
 plot_data$outcome <- factor(plot_data$outcome, levels = c(
   "overall", "colon", "proximal", "distal", "rectal"))
-plot_data$group <- factor(plot_data$group, levels = c("Sex-combined", "Male", "Female"))
+plot_data$group <- factor(plot_data$group, levels = c("Sex-combined", "Female", "Male"))
 plot_data <- droplevels(plot_data)
 
 plot_data$order[plot_data$outcome == "overall"] <- 1
@@ -38,8 +38,8 @@ ci <- 0.95
 
 plot_data <- plot_data[order(plot_data$order),]
 
-pdf("analysis/001_adiposity_colorectal/figures/forestplot_all.pdf",
-    width = 10, height = 14, pointsize = 10)
+tiff("analysis/001_adiposity_colorectal/figures/forestplot_all.tiff", 
+    width = 1000, height = 1400, units = "px")
 forestplot(df = plot_data,
               name = outcome,
               estimate = b,
@@ -60,8 +60,8 @@ forestplot(df = plot_data,
 dev.off()
 
 plot_data <- subset(plot_data, method == "IVW-MRE")
-pdf("analysis/001_adiposity_colorectal/figures/forestplot_main.pdf",
-    width = 10, height = 10, pointsize = 10)
+tiff("analysis/001_adiposity_colorectal/figures/forestplot_main.tiff",
+    width = 1000, height = 1000, units = "px")
 forestplot(df = plot_data,
               name = outcome,
               estimate = b,

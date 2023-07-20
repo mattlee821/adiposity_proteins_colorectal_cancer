@@ -14,9 +14,9 @@ adiposity <- select(data, dataset, id.exposure, exposure, group, CHR,POS,SNP,eff
 
 # cancer ====
 data <- fread("data/exposure_data/000_clumped_crc.txt", header = T)
+data <- subset(data, id.exposure != "overall_combined_HRC")
 head(data)
 data$group[data$id.exposure == "overall_combined"] <- "Sex-combined"
-data$group[data$id.exposure == "overall_combined_HRC"] <- "Sex-combined"
 data$group[data$id.exposure == "colon_combined"] <- "Sex-combined"
 data$group[data$id.exposure == "distal_combined"] <- "Sex-combined"
 data$group[data$id.exposure == "proximal_combined"] <- "Sex-combined"
@@ -34,9 +34,7 @@ data$group[data$id.exposure == "distal_female"] <- "Female"
 data$group[data$id.exposure == "proximal_female"] <- "Female"
 data$group[data$id.exposure == "rectal_female"] <- "Female"
 
-
 data$samplesize.exposure[data$id.exposure == "overall_combined"] <- 58131+67347
-data$samplesize.exposure[data$id.exposure == "overall_combined_HRC"] <- 55168+65160
 data$samplesize.exposure[data$id.exposure == "colon_combined"] <- 32002+64159
 data$samplesize.exposure[data$id.exposure == "distal_combined"] <- 14376+64159
 data$samplesize.exposure[data$id.exposure == "proximal_combined"] <- 15706+64159
@@ -69,15 +67,6 @@ data$dataset <- "proteins_Ferkingstad"
 data$group <- "Sex-combined"
 proteins_decode <- select(data, dataset, id.exposure, exposure, group, CHR,POS,SNP,effect_allele.exposure,other_allele.exposure, eaf.exposure,beta.exposure, se.exposure, pval.exposure, samplesize.exposure)
 
-# protein ukb ====
-data <- fread("analysis/010_UKB_proteins_colorectal/exposure_data.txt", stringsAsFactors = T)
-head(data)
-data$dataset <- "proteins_Sun"
-data$group <- "Sex-combined"
-data$samplesize.exposure <- 35571
-colnames(data) <- c("SNP", "CHR", "POS", "effect_allele.exposure", "other_allele.exposure", "exposure", "eaf.exposure", "beta.exposure", "se.exposure", "log10p.exposure","pval.exposure", "id.exposure","f_stats", "dataset","group", "samplesize.exposure")
-proteins_ukb <- select(data, dataset, id.exposure, exposure, group, CHR,POS,SNP,effect_allele.exposure,other_allele.exposure, eaf.exposure,beta.exposure, se.exposure, pval.exposure, samplesize.exposure)
-
 # proteins decode cis-SNP ====
 data <- fread("data/000_protein_data/exposure_data/cis_snps/cis_snps.txt", header = T)
 ncols <- max(stringr::str_count(data$phenotype, "_")) + 1
@@ -104,7 +93,7 @@ data <- select(data, dataset, id.exposure, exposure, group, CHR,POS,SNP,effect_a
 proteins_cis <- data[ , .SD[which.min(pval.exposure)], by = id.exposure]
 
 # master ====
-data <- rbind(adiposity, cancer, proteins_decode, proteins_cis, proteins_ukb)
+data <- rbind(adiposity, cancer, proteins_decode, proteins_cis)
 data$f_statistic <- (data$beta.exposure / data$se.exposure)^2 
 data <- subset(data, dataset != "cancer")
 write.table(data, "analysis/tables/exposure_data.txt", 

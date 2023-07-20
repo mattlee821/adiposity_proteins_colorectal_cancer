@@ -10,6 +10,7 @@ library(purrr)
 library(ggforestplot)
 library(wesanderson)
 library(EpiViz)
+library(rlang)
 colours <- names(wes_palettes)
 discrete_palette <- wes_palette(colours[8], type = "discrete")
 source("scripts/my_forestplot.R")
@@ -37,7 +38,7 @@ mr <- subset(mr, method == "IVW-MRE")
 mr$ID_adiposity_cancer <- paste0(mr$exposure, "_", mr$outcome, "_", mr$group)
 mr <- mr[mr$ID_adiposity_cancer %in% ID_adiposity_cancer_mvmr, ]
 mr <- mr[,c("ID_adiposity_cancer", "b", "se", "pval", "exposure", "exposure", "outcome", "group")]
-mr$method <- "UMR"
+mr$method <- "UVMR"
 colnames(mr) <- c("ID_adiposity_cancer", "b", "se", "p", "exposure", "adiposity", "cancer", "group", "method")
 mr$protein <- "Univariable MR"
 mr$ID1 <- mr$exposure
@@ -49,13 +50,14 @@ data <- bind_rows(mr,mvmr)
 data$cancer <- as.factor(data$cancer)
 data$cancer <- factor(data$cancer, levels = c("overall", "overall-HRC-EUR", "colon", "distal", "proximal", "rectal"))
 data$group <- factor(data$group, levels = c("Sex-combined", "Male", "Female"))
-data$method <- factor(data$method, levels = c("UMR", "MVMR"))
+data$method <- factor(data$method, levels = c("UVMR", "MVMR"))
 data <- data[order(data$order),]
+write.table(data, "analysis/008_mvmr/MVMR_UVMR_results.txt", 
+            row.names = FALSE, col.names = TRUE, quote = FALSE, sep = "\t")
 
 # join proportion mediated ====
 proportion_mediated <- read.table("analysis/008_mvmr/proportion_mediated.txt", header = T, sep = "\t")
 data <- left_join(data, proportion_mediated)
-
 
 # data for plot ====
 data_bmi <- subset(data, adiposity == "BMI")
@@ -122,7 +124,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3,1.4,1.5)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Colon colorectal cancer") +
   ggforce::facet_col(facets = ~group,
@@ -157,7 +159,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.038)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3,1.4,1.5)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Proximal colorectal cancer") +
   ggforce::facet_col(facets = ~group,
@@ -192,7 +194,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3,1.4)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Distal colorectal cancer") +
   ggforce::facet_col(facets = ~group,
@@ -227,7 +229,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Rectal colorectal cancer") +
   ggforce::facet_col(facets = ~group,
@@ -299,7 +301,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Colon colorectal cancer") +
   ggforce::facet_col(facets = ~group,
@@ -369,7 +371,7 @@ p1 <- my_forestplot(df = plot_data,
   xlab(label = "Odds ratio and 95% confidence interval") +
   theme(legend.position = "none") +
   coord_cartesian(xlim = c(1, x_max*1.035)) +
-  scale_x_continuous() +
+  scale_x_continuous(breaks = c(1,1.1,1.2,1.3)) +
   scale_color_manual(values = c(discrete_palette[3], discrete_palette[1])) +
   ggtitle("Distal colorectal cancer") +
   ggforce::facet_col(facets = ~group,

@@ -8,4 +8,4 @@
 
 cd ~/001_projects/adiposity_proteins_colorectal_cancer
 
-Rscript scripts/011_colocalisation/001_extract_window_joint_rectal_female.R
+Rscript scripts/011_colocalisation/001_extract_windows/001_extract_window_joint_rectal_female.R

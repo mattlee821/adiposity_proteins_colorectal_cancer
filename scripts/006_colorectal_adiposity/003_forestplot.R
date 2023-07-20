@@ -16,21 +16,21 @@ source("scripts/my_forestplot.R")
 
 # data ====
 data <- read.table("analysis/004_colorectal_adiposity/001_MR_results.txt", header = T, sep = "\t", stringsAsFactors=T)
+data <- subset(data, exposure != "overall_HRC")
 
 # plot_data ====
 plot_data <- data 
-plot_data$outcome <- factor(plot_data$outcome, levels = c("BMI", "WHR", "WHRadjBMI"))
+plot_data$outcome <- factor(plot_data$outcome, levels = c("BMI", "WHR"))
 plot_data$exposure <- factor(plot_data$exposure, levels = c(
-  "overall", "overall_HRC", "colon", "proximal", "distal", "rectal"))
-plot_data$group <- factor(plot_data$group, levels = c("Sex-combined", "Male", "Female"))
+  "overall", "colon", "proximal", "distal", "rectal"))
+plot_data$group <- factor(plot_data$group, levels = c("Sex-combined", "Female", "Male"))
 plot_data <- droplevels(plot_data)
 
 plot_data$order[plot_data$exposure == "overall"] <- 1
-plot_data$order[plot_data$exposure == "overall_HRC"] <- 2
-plot_data$order[plot_data$exposure == "colon"] <- 3
+plot_data$order[plot_data$exposure == "colon"] <- 2
 plot_data$order[plot_data$exposure == "distal"] <- 4
-plot_data$order[plot_data$exposure == "proximal"] <- 5
-plot_data$order[plot_data$exposure == "rectal"] <- 6
+plot_data$order[plot_data$exposure == "proximal"] <- 3
+plot_data$order[plot_data$exposure == "rectal"] <- 5
 
 xmin <- min(plot_data$lower_ci)
 xmax <- max(plot_data$upper_ci)
@@ -39,8 +39,8 @@ ci <- 0.95
 
 plot_data <- plot_data[order(plot_data$order),]
 
-pdf("analysis/004_colorectal_adiposity/figures/forestplot_all.pdf",
-    width = 10, height = 14, pointsize = 10)
+tiff("analysis/004_colorectal_adiposity/figures/forestplot_all.tiff",
+    width = 1000, height = 1400, units = "px")
 my_forestplot(df = plot_data,
               name = exposure,
               estimate = b,
@@ -61,8 +61,8 @@ my_forestplot(df = plot_data,
 dev.off()
 
 plot_data <- subset(plot_data, method == "IVW-MRE")
-pdf("analysis/004_colorectal_adiposity/figures/forestplot_main.pdf",
-    width = 10, height = 10, pointsize = 10)
+tiff("analysis/004_colorectal_adiposity/figures/forestplot_main.tiff",
+    width = 1000, height = 1000, units = "px")
 my_forestplot(df = plot_data,
               name = exposure,
               estimate = b,
